@@ -1,9 +1,10 @@
 ---
 spring:
   profiles:
-    active: dev
----
+    active: -dev
 
+
+---
 server:
   port: 1007
   context-path: /
@@ -40,6 +41,7 @@ info:
   version: 1.0-SNAPSHOT
   userName: http://javawwl.com
   phone: 123456
+
 ---
 server:
   port: 1008
