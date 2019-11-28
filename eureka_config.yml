@@ -3,9 +3,7 @@ spring:
   profiles:
     active: test
 ---
-server:
-  port: 2004
-  context-path: /
+
 spring:
   profiles: dev
 eureka:
@@ -17,9 +15,7 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #设置与Eureka注册中心交互的地址，查询服务和注册服务用到       #设置与Eureka注册中心交互的地址，查询服务和注册服务用到
 ---
-server:
-  port: 2005
-  context-path: /
+
 spring:
   profiles: test
 eureka:
