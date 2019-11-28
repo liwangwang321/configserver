@@ -6,7 +6,7 @@ spring:
 
 ---
 server:
-  port: 1007
+  port: 1008
   context-path: /
 
 # 数据源配置
@@ -44,7 +44,7 @@ info:
 
 ---
 server:
-  port: 1008
+  port: 1007
   context-path: /
 
 # 数据源配置
