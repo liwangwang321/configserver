@@ -6,7 +6,7 @@ spring:
 
 ---
 springcloud:
-  hello: hello dev update
+  hello: hello dev update2222
 
 server:
   port: 1007
